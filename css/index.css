@@ -1,0 +1,111 @@
+#bgAndHeadBox{height:511px;background:url(../img/index-bigBg0.jpg) no-repeat #b0b0b0 center top;}
+.bgAndHead{height: 100%;}
+/*背景选择与切换*/
+.bgBtnAndSwitch{float:right;width:auto;height:21px;margin:17px 4px 0 0;}
+.bgBtn,.leftBtn,.rightBtn{float:left;height:21px;
+background:url(../img/index-bgSelectIcon.png)no-repeat;cursor: pointer;}
+.bgBtn{position:relative;width:83px;margin-right:10px;background-position:0 0;}
+.bgBtn b{float:left;line-height:19px;margin-left:24px;color:#fff;
+font-weight:normal ;}
+.triangle{float:left;width:0;height:0;border:3px solid #fff;border-color:#fff transparent transparent transparent;margin:10px 0 0 6px;}
+.bgDropMenuBox{display:none;position:absolute;left:-255px;top:38px;width:401px;
+padding-bottom:15px;color:#fafafa;cursor:default;background:filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7F3E3E3E',endColorstr='#7F3E3E3E');background:rgba(62,62,62,0.5);}
+.arrow{display:block;width:0;height:0;margin:-7px 0 0 290px;
+border-bottom:7px solid rgba(62,62,62,0.5);border-left:7px solid transparent;border-right:
+7px solid transparent;}
+.cancel{display:block;width:16px;height:16px;margin:11px 0 0 372px;
+background:url(../img/index-bgSelectIcon.png)no-repeat -2px -72px;}
+.bgDropMenu dt{width:auto;height:18px;line-height: 18px;margin:-8px 0 19px 117px;}
+.bgDropMenu dd{float:left;width:60px;margin:9px 0 0 17px;}
+.bgDropMenu a{display:block;width:100%;height:59px;background-color:
+#000;}
+.bgDropMenu span{display:block;width:100%;line-height:32px;
+text-align:center;}
+.leftBtn{z-index:99;width:21px;margin-right:7px;background-position:0 -24px;}
+.rightBtn{width:21px;margin-right:5px;background-position:0 -48px;}
+/*背景选择与切换 END*/
+/*头像，昵称及个性签名*/
+.head{width:204px;padding:155px 0 0 535px;}
+.head dt{width:204px;height:204px;border:2px solid #b0adb1;border-radius:50%;}
+.head dt i{display: block;width:193px;height:193px;border-radius: 50%;background:url(../img/index-head.jpg) no-repeat;overflow: hidden;margin:5.5px auto 0;}
+.nickname,.yourLabel{height:27px;line-height:27px;text-align: center;color:#fff;}
+.nickname{position:relative;margin-top:13px;font-size:25px;}
+.yourLabel{font-size: 15px;}
+.sexIcon{position:absolute;right:-19px;top:6px;width:16px;height:16px;background:url(../img/index-bgSelectIcon.png) no-repeat 0 -95px;}
+/*头像，昵称,性别及个性签名 END*/
+/*main*/
+#mainBox{margin-bottom:91px;}
+/*main的导航条*/
+.mainNav{width:auto;margin-top:4px;}
+.mainNav li{float:left;width:256px;}
+.mainNavA{display:block;height:135px;padding-top:48px;}
+.mainNavDl{width:auto;padding-bottom:14px;border-left:1px solid #d8d8d8;}
+.mainNavDl dt{width:48px;height:42px;margin:21px 0 9px 102px;background:url(../img/index-mainIcon.png)no-repeat;}
+.mainNavDl dd{width:255px;text-align:center;color:#a0a0a0;}
+.cTitle{height:26px;line-height:26px;font-size:20px;}
+.eTitle{line-height:13px;height:13px;}
+/*鼠标放上去后改变的样式*/
+.curMainNavDl{width:auto;padding-bottom:31px;border-left:1px solid #d8d8d8;}
+.curMainNavDl dt{width:48px;height:42px;margin:4px 0 9px 102px;background:url(../img/index-mainIconChange.png)no-repeat;}
+.curMainNavDl dd{width:255px;text-align:center;color:#a0a0a0;}
+.curMainNavDl .cTitle{height:26px;line-height:26px;
+font-size:20px;color:#fff;}
+/*main上的导航条END*/
+/*员工msg*/
+.staffMsg{margin-top:9px;background:url(../img/index-stuffMsgBg.jpg) no-repeat right top #fff;border:1px solid #eaeaea;}
+.aboutStaff{width:600px;margin:60px auto 0;text-align:center;}
+.aboutStaff dt{line-height:42px;font-size:18px;color:#545454;}
+.staffName{font-size:28px;color:#3ea1ee;}
+.aboutStaff dd{line-height:35px;font-size:18px;}
+.workDate{font-size:21px;color:#3ea1ee;}
+/*加班，调休，年假统计图*/
+.statisticalChart{width:1021px;margin:63px auto 0;}
+.statisticalChart li{float:left;width:auto;}
+.ChartDl{width:210px;height:233px;padding-top:54px;background:url(../img/index-chart.png) no-repeat;font-size:18px;}
+.ChartDl dt{line-height:38px;text-align: center;}
+.ChartDl dd{margin-top:2px;line-height:30px;text-align: center;color:#45e0ce;}
+.chartBtn{display:block;width:101px;height:30px;line-height:30px;border:1px solid #3ea1ee;margin: 8px auto 0;border-radius:15px;
+color:#3ea1ee;}
+.chartBtn span{float:right;margin-right:-20px;}
+/*加班，调休，年假统计图END*/
+/*生日送祝福*/
+.Birth{width:1200px;margin:52px auto 0;}
+.Birth h3{float:left;line-height:30px;color:#7d7d7d;}
+.more{float:right;line-height:30px;font-size:12px;} 
+.birthNoteBox{padding:19px 0 23px 1px;border-top:1px solid #eeeeee;}
+.birthNoteBox li{float:left;width:146px;padding-right:64px;}
+.birthNote dt{float:left;width:48px;height:48px;border-radius:
+50%;background-color:#000;}
+.birthNote dd{float:right;width:90px;line-height:18px; ;font-size:12px;color:#5a5a5a;}
+.BirthName{float:left;}
+.sendWish{float:right;color:#3ea1ee;line-height:18px;}
+/*生日送祝福END*/
+/*员工msgEND*/
+/*规章制度和公司公告*/
+.ruleAndNote{margin-top:10px;}
+.Note,.Rule{width:634px;height:313px;background-color:#fff;border:1px solid #eaeaea;}
+.Note{float:left;}
+.Rule{float:right;}
+.NRtitle{height:30px;width:auto;margin:34px 0 16px 40px;
+font-size:20px;color:#3ea1ee;}
+.NRtitle span{margin-left:6px;line-height:30px;font-size:12px;
+color:#969696;font-weight:100;}
+.nrUl{width:562px;padding-top:15px;margin-left:35px;border-top:1px solid #eeeeee;}
+.nrUl li{list-style: disc;margin-left:12px;height:30px;
+line-height:30px;}
+/*控制li前点的颜色*/
+.nrUl li:hover{color:#3ea1ee;}
+/*END*/
+.nrUlA:hover{color:#3ea1ee;}
+.nrUlA i{float:left;font-style:normal;}
+.nrUlA span{float:right;}
+.moreBtn{float:right;width:54px;height:24px;margin:14px 15px 0 0;
+line-height:24px;border:1px solid #3ea1ee;border-radius:11px;color:#3ea1ee;
+text-align:center;}
+/*规章制度和公司公告*/
+/*main END*/
+/*footer*/
+#footerBox{height:67px;margin-bottom:0;background-color:#e7e7e7;}
+.footer li{padding-top:7px;height:20px;line-height:20px;
+text-align:center;color:#a8a8a8;font-family:"黑体";}
+/*footer END*/

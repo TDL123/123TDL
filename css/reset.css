@@ -1,0 +1,10 @@
+/*初始化*/
+body,div,ul,li,ol,li,h1,h2,h3,form,img,p,table,tbody,td,th,dl,dt,dd,input,textarea,a,i,em,b,strong{margin:0;padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none;font-family:"方正兰亭黑","微软雅黑";color:#969696;}
+img{ border:0 none; vertical-align:top;}
+body{min-width:1280px;font-size:14px;color:#969696;background-color:#f1f1f1;}
+.clearfix{ *zoom:1;}
+.clearfix:after{content:"TDL"; display:block; height:0; visibility:hidden; clear:both;}
+/*网页主体的公共部分*/
+.layer{margin:0 auto;width:1280px;}
